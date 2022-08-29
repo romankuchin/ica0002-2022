@@ -84,7 +84,7 @@ continue with the next task.
 
 **(on a Control node -- same machine where your SSH keys reside)**
 
-Note: we will use Ansible version 6.2.0 (ansible-core 2.13.2) for this course. Teachers will have this
+Note: we will use Ansible version 6.2.0 (ansible-core 2.13.3) for this course. Teachers will have this
 version installed and use it to check your tasks. Your code is considered
 working only if it executes successfully on Ansible 6.2.0. If you're using other
 Ansible versions -- you're on your own with them.
@@ -102,7 +102,7 @@ For Linux or OS X, we recommend to use Python virtual env:
 
 Last command should print something like
 
-    ansible [core 2.13.2]
+    ansible [core 2.13.3]
 
 Then, add this line to your `~/.profile` file (if the file is missing, create it)
 so you can use 'shorter' commands:
