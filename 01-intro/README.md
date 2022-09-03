@@ -39,8 +39,8 @@ this course.
 
 Add our course bot as a collaborator to your repository. This is needed for the
 teachers to provision virtual machines for you to practice, and check your task
-submissions. Go to your new repository settings, select `Manage access` in the
-left menu, click `Invite collaborator` and add user `ica0002-bot` (here is its
+submissions. Go to your new repository settings, select `Collaborators` in the
+left menu, click `Add people` and add user `ica0002-bot` (here is its
 GitHub profile: [https://github.com/ica0002-bot](https://github.com/ica0002-bot)).
 
 Once you have completed all the steps above your repository should appear in
@@ -84,10 +84,12 @@ continue with the next task.
 
 **(on a Control node -- same machine where your SSH keys reside)**
 
-Note: we will use Ansible version 6.2.0 (ansible-core 2.13.3) for this course. Teachers will have this
-version installed and use it to check your tasks. Your code is considered
-working only if it executes successfully on Ansible 6.2.0. If you're using other
-Ansible versions -- you're on your own with them.
+Note: we will use Ansible version 6.2.0 (ansible-core 2.13.3) for this course.
+Teachers will have this version installed and use it to check your tasks.
+Your code is considered working only if it executes successfully on Ansible 6.2.0.
+If you're using other Ansible versions -- you're on your own with them.
+
+Note: you will need Python v3.8.x or newer to use this version of Ansible.
 
 Note for Windows users: Ansible does not officially support running on Windows,
 neither do we support Windows as a workstation. Although we have nothing against
