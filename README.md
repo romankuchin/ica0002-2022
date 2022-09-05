@@ -41,7 +41,7 @@ use email or GitHub issues. We won't handle these in class.
 
 [Week 2: SSH, Web servers](./02-web-server)
  - Lecture: SSH basics; Web server basics; Nginx
- - Lab: Ansible file structure; set up Nginx as simple web server
+ - Lab: Set up Nginx as simple web server
 
 [Week 3: Web applications](./03-web-app)
  - Lecture: Dynamic web resources; web app deployment; Ansible handlers
