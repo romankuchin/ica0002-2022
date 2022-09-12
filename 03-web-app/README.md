@@ -145,9 +145,6 @@ For step 4 use
 [Ansible handlers](https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html)
 to handle service restarts correctly; also check out the lecture slides about Ansible handlers.
 
-You can delete the task that updates the index page added in the lab 2, and the index file itself
-from your repository. We won't need that task anymore.
-
 Then, update a play `Web server` and add a role named `uwsgi` to the role list. Note that this role
 should be added **after** `agama` but **before** `nginx` -- we'll need the application to be fully
 set up before configuring uWSGI, and that should be completed before configuring the web server:
@@ -215,6 +212,9 @@ work. This line in the `server` section of Nginx configuration should solve it:
 
 If you feel that examples mentioned above are not enough -- Nginx uWSGI module configuration
 reference can be found [here](https://nginx.org/en/docs/http/ngx_http_uwsgi_module.html#uwsgi_pass).
+
+You can delete the task that updates the index page added in the lab 2, and the index file itself
+from your repository. We won't need that task anymore.
 
 `Web server` play should already contain the `nginx` role from the previous lab; if it doesn't --
 add the role after the `uwsgi`.
