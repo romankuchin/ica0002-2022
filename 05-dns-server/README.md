@@ -124,8 +124,8 @@ Running the same command again does not make any changes to any of the managed h
 
 After playbook execution these commands should work from both your VMs (not from Ansible host):
 
-    ping <your_github_username>-1.<your-startup-domain>
-    ping <your_github_username>-2.<your-startup-domain>
+    ping <your_github_username>-1.<your_startup_domain>
+    ping <your_github_username>-2.<your_startup_domain>
     ping <your_github_username>-1
     ping <your_github_username>-2
 
