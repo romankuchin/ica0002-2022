@@ -9,7 +9,7 @@ As you might remember, in this course you play a role of Infrastructure Engineer
 For startup name creation you can use:
 1. Your head
 2. Use startup name generator [example](https://namelix.com/)
-3. Use random string generator [like that](https://passwordsgenerator.net/) and just add -ly or -fy to the end
+3. Use random string generator [like that](https://www.random.org/passwords) and just add -ly or -fy to the end
 
 Create your domain name using some fancy root zone:
 1. .io
