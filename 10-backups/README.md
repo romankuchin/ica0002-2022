@@ -213,7 +213,7 @@ This should print no errors; exit code should be 0; example:
 
 Use this command in Cron tab to create InfluxDB dumps:
 
-    rm -rf /home/backup/influxdb/*; influxd backup -database telegraf /home/backup/influxdb
+    rm -rf /home/backup/influxdb/*; influxd backup -portable /home/backup/influxdb
 
 Here the previous dump is deleted before creating a new one.
 
@@ -228,7 +228,7 @@ restore it:
 
     service telegraf stop
     influx -execute 'DROP DATABASE telegraf'
-    influxd restore -portable -database telegraf /home/backup/restore/influxdb
+    influxd restore -portable /home/backup/restore/influxdb
 
 You may get these errors if restoring the database:
 
