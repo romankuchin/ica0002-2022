@@ -79,7 +79,7 @@ use email or GitHub issues. We won't handle these in class.
  - Lecture: Intro to high availability; MySQL replication; MySQL clustering
  - Lab: Set up MySQL replication
 
-[Week 12: Virtualization](./12-docker)
+[Week 12: Virtualization, Docker](./12-docker)
  - Lecture: Intro to virtualization; Containerization
  - Demo: Docker basics
  - Lab: Redeploy some of the previous apps as Docker containers
