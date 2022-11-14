@@ -134,7 +134,7 @@ Purpose of these directory and files should be familiar to you from the lab 7.
 
 Example:
 
-      name: "/opt/grafana/provisioning/{{ item }}"
+      dest: "/opt/grafana/provisioning/{{ item }}"
       recurse: yes
     loop:
       - ...
